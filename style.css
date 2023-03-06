@@ -19,3 +19,16 @@ body {
 main {
     flex: 1 0 auto;
 }
+
+h1{
+    text-align: center;
+    padding-top: 20px;
+}
+
+ul{
+    padding:20px;
+}
+
+p{
+    padding: 20px;
+}

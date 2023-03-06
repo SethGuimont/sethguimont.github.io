@@ -1,6 +1,7 @@
 const footerTemplate = document.createElement('template');
 
 footerTemplate.innerHTML = `
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
   <style>
     footer {
       height: 60px;
@@ -10,7 +11,7 @@ footerTemplate.innerHTML = `
       flex-shrink: 0;
       justify-content: space-between;
       align-items: center;
-      background-color: #dfdfe2;
+      background-image: linear-gradient(to left, #553c9a, #b393d3);
     }
 
     ul {

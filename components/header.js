@@ -7,7 +7,7 @@ headerTemplate.innerHTML = `
       display: flex;
       align-items: center;
       justify-content: center;
-      background-color:  #0a0a23;
+      background-image: linear-gradient(to left, #553c9a, #b393d3);
     }
 
     ul {

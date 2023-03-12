@@ -31,16 +31,38 @@ ul{
 
 ol{
     padding:20px;
-
 }
 
 p{
     padding: 20px;
 }
+
 .images{
     height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
     border: 3px solid #dbe4ed; /* Border color is optional */
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        text-align: center;
+    }
+
+    .images {
+        height: 700px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid #dbe4ed; /* Border color is optional */
+    }
+
+    ol{
+        list-style-type: none;
+    }
+
+    ul{
+        list-style-type: none;
+    }
 }

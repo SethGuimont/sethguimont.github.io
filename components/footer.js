@@ -11,7 +11,7 @@ footerTemplate.innerHTML = `
       flex-shrink: 0;
       justify-content: space-between;
       align-items: center;
-      background-image: linear-gradient(to left, #553c9a, #b393d3);
+      background-image: linear-gradient(to right, #bdc3c7, #2c3e50);
     }
 
     ul {

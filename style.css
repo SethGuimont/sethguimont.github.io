@@ -45,7 +45,7 @@ p{
     border: 3px solid #dbe4ed; /* Border color is optional */
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and  (max-width:600px) {
     body {
         text-align: center;
     }
@@ -58,11 +58,25 @@ p{
         border: 3px solid #dbe4ed; /* Border color is optional */
     }
 
-    ol{
-        list-style-type: none;
-    }
+    @media only screen and  (min-width: 320px) and (max-width: 480px) {
+        body {
+            text-align: center;
+        }
 
-    ul{
-        list-style-type: none;
+        .images {
+            height: 700px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 3px solid #dbe4ed; /* Border color is optional */
+        }
+
+        ol {
+            list-style-type: none;
+        }
+
+        ul {
+            list-style-type: none;
+        }
     }
 }

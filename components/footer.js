@@ -43,39 +43,39 @@ footerTemplate.innerHTML = `
     }
     
     @media only screen and  (max-width:600px) {
-     ul li {
-      list-style: none;
-      display:block;
-    }
-     footer {
-      height: 80px;
-      padding: 0 10px;
-      list-style: none;
-      display: flex;
-      flex-shrink: 0;
-      justify-content: space-between;
-      align-items: center;
-      background-image: linear-gradient(to right, #bdc3c7, #2c3e50);
-    }
-    }
+       ul li {
+          list-style: none;
+          display:block;
+       }
+       footer {
+          height: 80px;
+          padding: 0 10px;
+          list-style: none;
+          display: flex;
+          flex-shrink: 0;
+          justify-content: space-between;
+          align-items: center;
+          background-image: linear-gradient(to right, #bdc3c7, #2c3e50);
+       }
+ }
     
     @media only screen and  (min-width: 320px) and (max-width: 480px) {
         body {
             text-align: center;
         }
-           ul li {
-      list-style: none;
-      display:block;
+        ul li {
+            list-style: none;
+            display:block;
     }
-     footer {
-      height: 80px;
-      padding: 0 10px;
-      list-style: none;
-      display: flex;
-      flex-shrink: 0;
-      justify-content: space-between;
-      align-items: center;
-      background-image: linear-gradient(to right, #bdc3c7, #2c3e50);
+        footer {
+          height: 80px;
+          padding: 0 10px;
+          list-style: none;
+          display: flex;
+          flex-shrink: 0;
+          justify-content: space-between;
+          align-items: center;
+          background-image: linear-gradient(to right, #bdc3c7, #2c3e50);
     } 
   }
   </style>

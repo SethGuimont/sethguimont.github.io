@@ -32,36 +32,36 @@ headerTemplate.innerHTML = `
     }
     
      @media only screen and  (max-width:600px) {
-     ul li {
-      list-style: none;
-      display:block;
-      }
+        ul li {
+            list-style: none;
+            display:block;
+        }
       
-      nav {
-      height: 80px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-image: linear-gradient(to left, #bdc3c7, #2c3e50);
-    }
+        nav {
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-image: linear-gradient(to left, #bdc3c7, #2c3e50);
+        }
     }
     
         @media only screen and  (min-width: 320px) and (max-width: 480px) {
-        body {
-            text-align: center;
-        }
+            body {
+                text-align: center;
+            }
            ul li {
-      list-style: none;
-      display:block;
-    }
+                list-style: none;
+                display:block;
+            }
     
-      nav {
-      height: 80px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-image: linear-gradient(to left, #bdc3c7, #2c3e50);
-    }
+           nav {
+                height: 80px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-image: linear-gradient(to left, #bdc3c7, #2c3e50);
+            }
   }
   </style>
   <header>

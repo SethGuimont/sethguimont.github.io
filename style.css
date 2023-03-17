@@ -14,13 +14,23 @@ body {
     font-family: sans-serif;
     display: flex;
     flex-direction: column;
+    background-image: linear-gradient(to left, #bdc3c7, #2c3e50);
 }
 
 main {
     flex: 1 0 auto;
+    z-index: 1;
+    width: 80%;
+    align-self:center;
+    background-color: #C58B67FF;
 }
 
 h1{
+    text-align: center;
+    padding-top: 20px;
+}
+
+h2{
     text-align: center;
     padding-top: 20px;
 }
@@ -30,7 +40,7 @@ ul{
 }
 
 ol{
-    padding:20px;
+    padding:40px;
 }
 
 p{
@@ -55,6 +65,10 @@ form{
 @media only screen and  (max-width:600px) {
     body {
         text-align: center;
+    }
+
+    main{
+        width:100%
     }
 
     .images {

@@ -11,7 +11,7 @@ footerTemplate.innerHTML = `
       flex-shrink: 0;
       justify-content: space-between;
       align-items: center;
-      background-image: linear-gradient(to right, #bdc3c7, #2c3e50);
+      background-image: linear-gradient(to left, #bdc3c7, #2c3e50);
     }
 
     ul {
@@ -55,7 +55,7 @@ footerTemplate.innerHTML = `
           flex-shrink: 0;
           justify-content: space-between;
           align-items: center;
-          background-image: linear-gradient(to right, #bdc3c7, #2c3e50);
+          background-image: linear-gradient(to left, #bdc3c7, #2c3e50);
        }
  }
     
@@ -75,7 +75,7 @@ footerTemplate.innerHTML = `
           flex-shrink: 0;
           justify-content: space-between;
           align-items: center;
-          background-image: linear-gradient(to right, #bdc3c7, #2c3e50);
+          background-image: linear-gradient(to left, #bdc3c7, #2c3e50);
     } 
   }
   </style>

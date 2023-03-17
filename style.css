@@ -44,6 +44,13 @@ p{
     justify-content: center;
     border: 3px solid #dbe4ed; /* Border color is optional */
 }
+.form-page{
+    text-align: center;
+}
+form{
+    text-align:center;
+
+}
 
 @media only screen and  (max-width:600px) {
     body {

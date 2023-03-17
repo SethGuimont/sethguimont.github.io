@@ -23,12 +23,33 @@
     <header-component></header-component>
     <main>
       <h1>How to get in Touch With Seth</h1>
+        <div class = "form-page">
         <p>
             All my social are at the bottom of the page, you can also directly email me at <a href="mailto:sethguimont@outlook.com">sethguimont@outlook.com</a>
         </p>
         <p>
+            Or you can use the form below to directly email me from here.
+        </p>
+        <p>
             If you would like to download a copy of my resume, click <a href="Seth_Guimont_Resume.docx" download>here</a>
         </p>
+        </div>
+        <!-- modify this form HTML and place wherever you want your form -->
+        <form
+                action="https://formspree.io/f/xayzbzgg"
+                method="POST"
+        >
+            <label>
+                Your email:
+                <input type="email" name="email">
+            </label>
+            <label>
+                Your message:
+                <textarea name="message"></textarea>
+            </label>
+            <!-- your other form fields go here -->
+            <button type="submit">Send</button>
+        </form>
     </main>
 
 <footer-component></footer-component>

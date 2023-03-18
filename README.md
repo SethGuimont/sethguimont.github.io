@@ -9,15 +9,15 @@
 - [Acknowledgements](#acknowledgements)
 
 ### Built With
+Simple HTML and CSS with Javascript components for the header and footer.  Rather then use PHP or any other code for the mailer form, I used 
+"formspree.io".  A simple POST request to the API they provide sends the email to my address.  
 
-<!-- TODO: List any MAJOR libraries/frameworks (e.g. React, Tailwind) with links to their homepages. -->
 
 ## Features
-
-<!-- TODO: List what specific 'user problems' that this application solves. -->
+I will hope to also use this site as kind of a music blog and keep updating it with spotify picks and playlists
 
 ## Contact
-
-<!-- TODO: Include icons and links to your RELEVANT, PROFESSIONAL 'DEV-ORIENTED' social media. LinkedIn and dev.to are minimum. -->
+All the contact information is listed in the site itself.  I am on linkedin and my email is sethguimont@outlook.com.
 
 ## Acknowledgements
+I acknowledge my wife for her artistic eye in helping me make this site look pretty.

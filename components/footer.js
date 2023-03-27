@@ -81,7 +81,7 @@ footerTemplate.innerHTML = `
     } 
   }
   
-  @media only screen and (-webkit-min-device-pixel-ratio: 2.75) {
+  @media only screen and (min-width: 393px) and (orientation: landscape) {
             body {
             text-align: center;
         }

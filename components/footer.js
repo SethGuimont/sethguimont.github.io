@@ -59,6 +59,8 @@ footerTemplate.innerHTML = `
        }
  }
     
+    
+    
     @media only screen and  (min-width: 320px) and (max-width: 480px) {
         body {
             text-align: center;
@@ -78,6 +80,30 @@ footerTemplate.innerHTML = `
           background-image: linear-gradient(to left, #bdc3c7, #2c3e50);
     } 
   }
+  
+  @media only screen and (-webkit-min-device-pixel-ratio: 2.75) {
+            body {
+            text-align: center;
+        }
+        ul li {
+            list-style: none;
+            display:block;
+    }
+        footer {
+          height: 100px;
+          padding: 0 10px;
+          list-style: none;
+          display: flex;
+          flex-shrink: 0;
+          justify-content: space-between;
+          align-items: center;
+          background-image: linear-gradient(to left, #bdc3c7, #2c3e50);
+    } 
+     .social-row {
+      font-size: 30px;
+    }
+} 
+  
   </style>
   <footer>
     <ul>

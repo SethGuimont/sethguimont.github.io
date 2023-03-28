@@ -81,28 +81,6 @@ footerTemplate.innerHTML = `
     } 
   }
   
-  @media only screen and (min-width: 393px) and (orientation: landscape) {
-            body {
-            text-align: center;
-        }
-        ul li {
-            list-style: none;
-            display:block;
-    }
-        footer {
-          height: 100px;
-          padding: 0 10px;
-          list-style: none;
-          display: flex;
-          flex-shrink: 0;
-          justify-content: space-between;
-          align-items: center;
-          background-image: linear-gradient(to left, #bdc3c7, #2c3e50);
-    } 
-     .social-row {
-      font-size: 30px;
-    }
-} 
   
   </style>
   <footer>

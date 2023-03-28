@@ -59,7 +59,38 @@ p{
 }
 form{
     text-align:center;
+    align-content: center;
 
+}
+
+input [type=text] {
+    align-content: center;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+textarea{
+    width:50%;
+    align-content: center;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+button {
+    width: 30%;
+    background-color: gray;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 @media only screen and  (max-width:600px) {

@@ -47,6 +47,11 @@ footerTemplate.innerHTML = `
           list-style: none;
           display:block;
        }
+       
+       a {
+        color: #fff;
+       }
+       
        footer {
           height: 80px;
           padding: 0 10px;

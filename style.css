@@ -93,6 +93,12 @@ button {
     cursor: pointer;
 }
 
+.discord{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 @media only screen and  (max-width:600px) {
     body {
         text-align: center;

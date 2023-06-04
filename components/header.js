@@ -38,11 +38,12 @@ headerTemplate.innerHTML = `
         }
       
         nav {
-            height: 80px;
+            height: 90px;
             display: flex;
             align-items: center;
             justify-content: center;
             background-image: linear-gradient(to left, #bdc3c7, #2c3e50);
+            padding:4px;
         }
     }
     
@@ -53,14 +54,16 @@ headerTemplate.innerHTML = `
            ul li {
                 list-style: none;
                 display:block;
+
             }
     
            nav {
-                height: 80px;
+                height: 90px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 background-image: linear-gradient(to left, #bdc3c7, #2c3e50);
+                padding:4px;
             }
   }
   </style>
@@ -71,6 +74,7 @@ headerTemplate.innerHTML = `
         <li><a href="projects.html">Projects</a></li>
         <li><a href="blog.html">Blog</a></li>
         <li><a href="contact.html">Contact</a></li>
+        <li><a href="discord.html">Discord</a><li>
       </ul>
     </nav>
   </header>
